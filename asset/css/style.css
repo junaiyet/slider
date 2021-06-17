@@ -1,0 +1,37 @@
+#banner-part {
+  background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+}
+#banner-part .banner {
+  padding: 250px 0;
+  color: #fff;
+  text-align: left;
+  position: relative;
+}
+#banner-part .banner .details {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+#banner-part .banner .details h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+#banner-part .banner .details h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+#banner-part .banner .details h3 {
+  font-size: 40px;
+}
+#banner-part .slick-active .details {
+  animation: ani 2s;
+}
+@keyframes ani {
+  from {
+    top: 0;
+  }
+  to {
+    top: 25%;
+  }
+}
