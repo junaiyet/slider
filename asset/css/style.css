@@ -29,7 +29,7 @@
 }
 @keyframes ani {
   from {
-    top: 0;
+    top: -5%;
   }
   to {
     top: 25%;
